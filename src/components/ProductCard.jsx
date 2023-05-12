@@ -8,6 +8,7 @@ export const ProductCard = (props) => {
         <span>{products.name}</span>
         <span>{products.description}</span>
         <span>{products.price}</span>
+        <button>Add</button>
     </div>
   );
 };
